@@ -2472,6 +2472,13 @@
       }
     }
   }
+  .hover\:bg-\[url\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: url;
+      }
+    }
+  }
   .hover\:bg-blue-600 {
     &:hover {
       @media (hover: hover) {
@@ -2483,6 +2490,41 @@
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-sky-300);
+      }
+    }
+  }
+  .hover\:bg-\[url\(\)\] {
+    &:hover {
+      @media (hover: hover) {
+        background-image: url();
+      }
+    }
+  }
+  .hover\:bg-\[url\(\/im\)\] {
+    &:hover {
+      @media (hover: hover) {
+        background-image: url(/im);
+      }
+    }
+  }
+  .hover\:bg-\[url\(\/image\/\)\] {
+    &:hover {
+      @media (hover: hover) {
+        background-image: url(/image/);
+      }
+    }
+  }
+  .hover\:bg-\[url\(\/image\/ic\)\] {
+    &:hover {
+      @media (hover: hover) {
+        background-image: url(/image/ic);
+      }
+    }
+  }
+  .hover\:bg-\[url\(\/image\/icon-view\.svg\)\] {
+    &:hover {
+      @media (hover: hover) {
+        background-image: url(/image/icon-view.svg);
       }
     }
   }

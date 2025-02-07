@@ -9,10 +9,10 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/images/favicon-32x32.png"
+      href="./images/favicon-32x32.png"
     />
     <!-- Linking stylesheet -->
-    <link rel="stylesheet" href="/src/output.css" />
+    <link rel="stylesheet" href="./src/output.css" />
     <title>NFT card</title>
   </head>
   <body
@@ -21,10 +21,12 @@
     <div
       class="rounded-xl w-80 shadow-lg dark:bg-gray-800 dark:border-gray-700 border-2 p-5 mb-6"
     >
-      <div class="hover:bg-sky-300 rounded-lg mb-4">
+      <div
+        class="hover:bg-sky-300 hover:bg-[url(/image/icon-view.svg)] rounded-lg mb-4"
+      >
         <img
           class="cursor-pointer rounded-lg hover:opacity-40"
-          src="/images/image-equilibrium.jpg"
+          src="./images/image-equilibrium.jpg"
           alt="image-equilibrium"
         />
       </div>
@@ -37,10 +39,10 @@
 
         <div class="flex mb-3 justify-between">
           <h3 class="flex gap-1.5 items-center text-sky-300">
-            <img src="/images/icon-ethereum.svg" alt="eth-image" /> 0.041 ETH
+            <img src="./images/icon-ethereum.svg" alt="eth-image" /> 0.041 ETH
           </h3>
           <p class="flex gap-1.5 items-center text-slate-500 font-bold">
-            <img src="/images/icon-clock.svg" alt="clock-img" /> 3 days left
+            <img src="./images/icon-clock.svg" alt="clock-img" /> 3 days left
           </p>
         </div>
         <!-- horizontal line -->
@@ -49,7 +51,7 @@
         <div class="flex items-center gap-4 mt-4">
           <img
             class="w-9 border-white border rounded-full"
-            src="/images/image-avatar.png"
+            src="./images/image-avatar.png"
             alt="image-avatar"
           />
           <p class="text-white">
