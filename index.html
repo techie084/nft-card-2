@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- linking fav-icon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-32x32.png"
+    />
+    <!-- Linking stylesheet -->
+    <link rel="stylesheet" href="/src/output.css" />
+    <title>NFT card</title>
+  </head>
+  <body
+    class="bg-center bg-blue-950 flex flex-col items-center justify-center h-screen font-sans"
+  >
+    <div
+      class="rounded-xl w-80 shadow-lg dark:bg-gray-800 dark:border-gray-700 border-2 p-5 mb-6"
+    >
+      <div class="hover:bg-sky-300 rounded-lg mb-4">
+        <img
+          class="cursor-pointer rounded-lg hover:opacity-40"
+          src="/images/image-equilibrium.jpg"
+          alt="image-equilibrium"
+        />
+      </div>
+      <!-- text-container -->
+      <div>
+        <h2 class="text-2xl mb-2 font-bold text-white">Equilibrium #3429</h2>
+        <p class="text-slate-500 mb-3">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+
+        <div class="flex mb-3 justify-between">
+          <h3 class="flex gap-1.5 items-center text-sky-300">
+            <img src="/images/icon-ethereum.svg" alt="eth-image" /> 0.041 ETH
+          </h3>
+          <p class="flex gap-1.5 items-center text-slate-500 font-bold">
+            <img src="/images/icon-clock.svg" alt="clock-img" /> 3 days left
+          </p>
+        </div>
+        <!-- horizontal line -->
+        <hr class="text-slate-500" />
+        <!-- image and text bellow  -->
+        <div class="flex items-center gap-4 mt-4">
+          <img
+            class="w-9 border-white border rounded-full"
+            src="/images/image-avatar.png"
+            alt="image-avatar"
+          />
+          <p class="text-white">
+            <span class="text-slate-500">Creation of</span>
+            Jules Wyvern
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- TODO -->
+    <div class="no-underline text-sm text-white">
+      Challenge by
+      <a
+        class="text-black"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a class="text-black" href="https://github.com/techie084"
+        >Wisdom Matthew</a
+      >
+    </div>
+  </body>
+</html>
